@@ -1,5 +1,10 @@
 # Three.js collaborative whiteboard
 
+This is the standalone browser-demo repository, extracted with its history from
+[threejs-whiteboard](https://github.com/krongthamk/threejs-whiteboard).
+Use this repository for the static Vercel demo; use the original repository for
+the authenticated self-hosted application.
+
 A browser whiteboard with shapes, pressure-aware drawing, native text editing, bound connectors, images, collaborative cursors, per-session undo, and PNG/SVG/PDF export. The document is a Yjs model; Three.js is its disposable visual projection.
 
 Implementation and measured acceptance evidence are tracked against [the build plan](docs/BUILD_PLAN.md) in [the execution log](docs/EXECUTION_LOG.md). The selected initial benchmark/deployment machine is this Mac (Apple M1 Pro, 32 GiB); local results do not establish performance on other hardware.
